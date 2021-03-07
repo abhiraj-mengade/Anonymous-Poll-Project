@@ -1,6 +1,5 @@
 const express = require('express');
 const myapp = express();
-const port = 4000;
 myapp.use(express.static(__dirname + '/public'));
 const mongoose = require('mongoose')
 mongoose.connect("mongodb+srv://Abhiraj:123@cluster0.a4kjb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", { 
